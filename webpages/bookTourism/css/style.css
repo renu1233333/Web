@@ -1,0 +1,35 @@
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(to left, rgba(2, 0, 36, 1) 0%, rgb(104, 104, 171) 35%, rgb(132, 153, 196) 50%, rgba(41, 125, 207, 1) 61%, rgba(36, 136, 213, 1) 66%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    .image {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .karnataka body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(to left, rgb(0, 31, 36) 0%, rgb(104, 104, 171) 35%, rgb(81, 100, 138) 50%, rgba(41, 125, 207, 1) 61%, rgba(36, 136, 213, 1) 66%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    .karnatakaInfo,
+    .telanganaInfo,
+    .tamilnaduInfo,
+    .andrapradeshInfo,
+    .keralaInfo {
+        color: white;
+        border: 20px solid rgba(2, 0, 36, 1);
+    }
+    
+    .borderReg input,
+    .borderLog input {
+        border: 2px solid rgb(144, 161, 22);
+        background-color: coral;
+        color: white;
+    }
+    
+    .header h1 {
+        text-align: center;
+        color: brown;
+    }

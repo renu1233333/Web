@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registartion Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="register">
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+
+        </ul>
+    </nav>
+
+    <h1 class="header">Welcome to Registartion Page</h1>
+
+
+    <form action="reg.jsp" method="post">
+        <table class="borderReg">
+            <thead>
+                <tr>
+                    <th colspan="2">Register Here!!!</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="">First Name:</label></td>
+                    <td><input type="text" placeholder="Enter Your First Name" size="50" autocomplete="off" autofocus="1" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name:</label></td>
+                    <td><input type="text" placeholder="Enter Your Last Name" size="50" name="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email" placeholder="Enter Your Email ID" size="50" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" placeholder="Enter the Password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number:</label></td>
+                    <td><input type="text" placeholder=" Only 10 Digits are Number" maxlength="10" size="50" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender:</label></td>
+                    <td><input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth:</label></td>
+                    <td><input type="date" size="50" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td><textarea name="address" id="area" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">City</label></td>
+                    <td><input type="text" placeholder="Enter the City" size="50" name="city"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Area PIN</label></td>
+                    <td><input type="text" placeholder="Enter the Area Pin" size="50" name="area"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">State</label></td>
+                    <td><input type="text" placeholder="Enter the State" size="50" name="state"></td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="">Upload the File</label></td>
+                    <td><input type="" placeholder="Enter the file" size="50" name="file"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Qualification</label></td>
+                    <td>
+                        <select name="degree" id="deg">
+                        <option value="" selected>Select Qualification</option>
+                        <option value="bsc">BSC</option>
+                        <option value="be">BE</option>
+                        <option value="btech">BTech</option>
+                        <option value="bca">BCA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""> Specialization</label>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="checkbox" name="cs" checked>Computer Science
+                        </div>
+                        <div>
+                            <input type="checkbox" name="is">Information Science
+                        </div>
+                        <div>
+                            <input type="checkbox" name="tele">Tele-communication
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                        <input type="button" value="Create" disabled>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </form>
+    </center>
+</body>
+
+</html>

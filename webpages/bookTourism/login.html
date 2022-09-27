@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+
+            <li> <a href="registration.html">Register</a></li>
+        </ul>
+    </nav>
+    <center>
+        <h1>Welcome to Login Page</h1>
+
+
+        <form action="login.jsp" method="post">
+            <table class="borderLog">
+                <thead>
+                    <th colspan="2">Login Here!!!</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="">Email:</label></td>
+                        <td><input type="email" placeholder="Enter Your Email ID" size="50" name="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Password</label></td>
+                        <td><input type="password" placeholder="Enter the Password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit">
+                            <input type="button" value="Create" disabled>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
