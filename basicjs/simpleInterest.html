@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/interest.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+    <div class="main-div">
+        <div class="header-div">
+            Simple Interest Calculator
+        </div>
+
+        <div class="label-input-div">
+            <label for="" class="label-section">Principal,P</label>
+            <input type="text">
+
+        </div>
+
+        <div class="label-input-div">
+            <label for="" class="label-section">Annua Rate,r</label>
+            <input type="text">
+            <label for="">%</label>
+        </div>
+        <div class="label-input-div">
+            <label for="" class="label-section">Time,t</label>
+            <input type="text"><label for="">yrs+</label>
+            <input type="text"><label for="">mon+</label>
+            <input type="text"><label for="">days</label>
+        </div>
+        <div class="label-input-div">
+            <label for="" class="label-section">Days in a Year</label>
+            <select name="" id="">
+        <option value="">356</option>
+    </select>
+        </div>
+        <div class="label-input-div">
+            <button>caculate Simple Interest</button>
+        </div>
+        <div class="label-input-div">
+            <label for="" class="label-section">Interest,I</label>
+            <input type="text">
+        </div>
+
+
+    </div>
+
+
+-->
+
+    <div class="main-div">
+        <div class="header-div">
+            Simple Interest Calculator
+        </div>
+
+        <div class="label-div">
+            <div>Principal,P</div>
+            <div>Annua Rate,r</div>
+            <div>Time,t</div>
+            <div>Months in Year</div>
+            <div></div>
+            <div class="interest-div">Interest,I</div>
+        </div>
+
+        <div class="input-div">
+            <div><input type="text" class="principal-div" placeholder="5000" id="principal"></div>
+            <div><input type="text" class="anual-rate-div" placeholder="6.5" id="anualrate"><label for="">%</label></div>
+            <div><input type="text" class="sub-div" placeholder="2" id="year"><label for="">yrs+</label>
+                <input type="text" class="sub-div" placeholder="6" id="month"><label for="">mon+</label>
+                <input type="text" class="sub-div" placeholder="5" id="days"><label for="">days</label>
+            </div>
+            <div><select name="" id="months">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                </select>
+            </div>
+
+            <div><button onclick="calculate()">calculate Interest</button></div>
+            <div><input class="si-div" type="text" placeholder="simple Interest" id="resut"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/simpleInterest.js"></script>
+</body>
+
+</html>

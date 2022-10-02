@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+.main-div {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(215, 220, 227);
+    margin: 10%;
+    margin-left: 25%;
+}
+
+.main-div .header-div {
+    width: 400px;
+    height: 30px;
+    background-color: rgba(94, 94, 205, 0.51);
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+
+/*
+.label-section {
+    margin: 10px;
+}
+
+.label-input-div input {
+    width: 30px;
+    margin-left: 10%;
+}
+*/
+
+.label-div {
+    width: 150px;
+    height: 250px;
+    /* background-color: brown;*/
+}
+
+.label-div div {
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: right;
+}
+
+.input-div {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    /*  background-color: rgb(115, 115, 199);*/
+    top: 30%;
+    left: 40%;
+    margin-top: 0.8%;
+}
+
+.sub-div {
+    width: 25px;
+}
+
+.principal-div {
+    width: 90px;
+}
+
+.anual-rate-div {
+    width: 70px;
+}
+
+.select {
+    height: 20px;
+}
+
+button {
+    margin-top: 3px;
+    margin-left: 8%;
+}
+
+.input-div input,
+select {
+    margin: 3%;
+    margin-top: 2%;
+}
+
+.si-div {
+    width: 200px;
+}
+
+.interest-div {
+    position: absolute;
+    top: 45%;
+    left: 24%;
+}
